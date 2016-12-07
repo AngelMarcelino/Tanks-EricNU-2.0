@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1
     public Tank(int tipo,int jugador,string nom,Point locin,bool es_base_bool,int equip,bool ia){
         
         //auxiliares de ia
-        es_ia = ia;
+        es_ia = ia ;
         target = false;
         loc = loc_inicial = locin;
         //parametros generales
